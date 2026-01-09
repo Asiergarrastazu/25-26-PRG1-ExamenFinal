@@ -43,7 +43,7 @@ class CalculadoraGeometria {
 
             boolean calculoExitoso = false;
 
-            if (opcionFigura == 1) { // Círculo
+            if (opcionFigura == 1) {
                 System.out.print("Radio: ");
                 double radio = scanner.nextDouble();
 
@@ -66,7 +66,7 @@ class CalculadoraGeometria {
                     System.out.println("Radio invalido");
                 }
 
-            } else if (opcionFigura == 2) { // Rectángulo
+            } else if (opcionFigura == 2) { 
                 System.out.print("Base: ");
                 double base = scanner.nextDouble();
                 System.out.print("Altura: ");
@@ -91,7 +91,7 @@ class CalculadoraGeometria {
                     System.out.println("Dimensiones invalidas");
                 }
 
-            } else if (opcionFigura == 3) { // Triángulo
+            } else if (opcionFigura == 3) { 
                 System.out.print("Lado 1: ");
                 double x = scanner.nextDouble();
                 System.out.print("Lado 2: ");
@@ -128,7 +128,7 @@ class CalculadoraGeometria {
                     System.out.println("Lados invalidos o no forman un triangulo");
                 }
 
-            } else if (opcionFigura == 4) { // Cilindro
+            } else if (opcionFigura == 4) { 
                 System.out.print("Radio: ");
                 double radio = scanner.nextDouble();
                 System.out.print("Altura: ");
